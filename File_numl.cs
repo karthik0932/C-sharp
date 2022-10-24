@@ -10,7 +10,7 @@ namespace TE_CSharp
     {
         public static void Main()
         {
-            string path= @"C:\Users\ei13080\Desktop\Ujwala\Technical_Training\Others\Text1.txt";
+            string path= @"C:\Users\ei13113\Desktop\karthik\Technical_Training\Others\Text1.txt";
             int count = File.ReadAllLines(path).Length;
             Console.WriteLine("Number of lines Text1 file: " + count);
         }
