@@ -21,7 +21,7 @@ namespace TE_CSharp
       public static void details(out int sid, out string sname, out string sdep)
         {
             sid = 1001;
-            sname = "Ujwala";
+            sname = "karthik";
             sdep = ".NET Frame work";
 
         }
