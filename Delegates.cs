@@ -30,11 +30,11 @@ namespace TE_CSharp
             // call the delegate using a instance through a instance of a class
             // DelegatesDelegate del = details.Getdetails;
             //del = details.Getdetails1;
-            //del(1001, "Ujwala");
-            //del(1002,"Lavanya");
+            //del(1001, "karthik");
+            //del(1002,"nikki");
             DelegatesDelegate1 del1 = details.Getdetails;
             del1 += details.Getdetails1;
-            del1(1999, "Roopa");
+            del1(1999, "Pushpa");
 
 
         }
