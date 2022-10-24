@@ -11,7 +11,7 @@ namespace TE_CSharp
     {
         public void Write()
         {
-            FileInfo fileInfo = new FileInfo(@"C:\Users\ei13080\Desktop\Ujwala\Technical_Training\Files\Table.txt");
+            FileInfo fileInfo = new FileInfo(@"C:\Users\ei13113\Desktop\karthik\Technical_Training\Files\Table.txt");
             FileStream fs = fileInfo.Open(FileMode.OpenOrCreate, FileAccess.ReadWrite,FileShare.ReadWrite);
             StreamWriter writer = new StreamWriter(fs);
        
@@ -44,7 +44,7 @@ namespace TE_CSharp
         
         public void Read()
         {
-            FileInfo fileInfo = new FileInfo(@"C:\Users\ei13080\Desktop\Ujwala\Technical_Training\Files\Table.txt");
+            FileInfo fileInfo = new FileInfo(@"C:\Users\ei13113\Desktop\karthik\Technical_Training\Files\Table.txt");
             FileStream fs = fileInfo.Open(FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite);
             StreamReader reader = new StreamReader(fs);
 
