@@ -13,7 +13,7 @@ namespace TE_CSharp
         public static void Main()
         {
             employee dis = new employee();
-            dis.detail(101,"Ujwala", "Developer",21);
+            dis.detail(101,"karthik", "Developer",21);
 
         }
        
