@@ -25,7 +25,7 @@ namespace TE_CSharp
        public static void Main()
         {
             Inter inter = new Inter();
-            inter.std_details(1011,"Ujwala","Developer");
+            inter.std_details(1013,"karthik","Developer");
         }
     }
 }
